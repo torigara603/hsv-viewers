@@ -1,0 +1,11 @@
+# dir
+__pycache__/
+.venv/
+data/*
+
+# file
+
+
+# exception
+!data/cat_0001.jpg
+!data/ichigo_0001.jpg

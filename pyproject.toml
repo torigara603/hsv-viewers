@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hsv-viewers"
+version = "0.1.0"
+description = ""
+authors = ["kenta fukuhara <ztmf.dceg.kjum@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7, <=3.9"
+opencv-python = "^4.5.5"
+Pillow = "^9.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
