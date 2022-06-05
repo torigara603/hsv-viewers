@@ -44,12 +44,14 @@ class RangeScaleFrame(tk.LabelFrame):
         self.scale1.configure(from_=from_to1[0])
         self.scale1.configure(to=from_to1[1])
         self.scale1.configure(tickinterval=from_to1[1])
+        self.scale1.intval.set(from_to1[0])
         self.scale1.pack()
 
         self.scale2 = MyScale(self)
         self.scale2.configure(from_=from_to2[0])
         self.scale2.configure(to=from_to2[1])
         self.scale2.configure(tickinterval=from_to2[1])
+        self.scale2.intval.set(from_to2[1])
         self.scale2.pack()
 
         self.scale1.configure(command=self.move)
